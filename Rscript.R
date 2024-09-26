@@ -3,7 +3,7 @@
 library(tidyverse)
 
 ###### EXTRA:  using the n()function to get the total number of rows (tweets) 
-###### EXTRA: XYZ <- DATA , is just making a new data frame after extraction from oroginal data  
+###### EXTRA: XYZ <- DATA , is just making a new data frame after extraction from original data  
 ###### EXTRA: %>% is pipe operator of tidyverse package which meeans and then . (ie: do this and then do this and then do this)
 ###### EXTRA: group_by(xyz) , This allows you to group xyz data by the same user/category.
 
