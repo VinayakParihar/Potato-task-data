@@ -3,6 +3,13 @@
 #### The task at hand is an open-ended analysis of a dataset containing tweets, where the goal is to query and extract various insights based on specific search terms. Since the requirements allow for flexibility in the approach, I have chosen to use R for this analysis. R is well-suited for data manipulation, querying, and statistical analysis, making it ideal for handling the structure and querying of the tweet dataset.
 #### By using R, I can effectively ingest the data, clean it, and build functionality that allows for querying based on search terms, while also performing various aggregations and analyses on the results. This approach enables efficient handling of large datasets and provides the flexibility needed to answer open-ended questions, such as finding trends over time, identifying user behaviors, and analyzing tweet engagement.
 
+## install R
+###### Installing R on Windows OS
+###### Go to the CRAN website.
+###### Click on "Download R for Windows".
+###### Click on "install R for the first time" link to download the R executable (.exe) file.
+###### Run the R executable file to start installation, and allow the app to make changes to your device.
+###### Select the installation language.
 
 ## Part 1: Ingesting the Data
 Load the Dataset: Begin by importing your dataset of tweets into R. TSV file that can be read by R using Tidyverse.
