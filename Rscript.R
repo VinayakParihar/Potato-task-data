@@ -5,7 +5,7 @@ library(tidyverse)
 ###### EXTRA:  using the n()function to get the total number of rows (tweets) 
 ###### EXTRA: XYZ <- DATA , is just making a new data frame after extraction from oroginal data  
 ###### EXTRA: %>% is pipe operator of tidyverse package which meeans and then . (ie: do this and then do this and then do this)
-
+###### EXTRA: group_by(xyz) , This allows you to group xyz data by the same user/category.
 
 ## Load the tweet data using the path of the downloaded file
 tweet_data <- read_tsv("correct_twitter_201904.tsv")
@@ -98,6 +98,7 @@ print(head(temp_result))  # Inspect the counts before sorting
 top_user <- temp_result %>%
   arrange(desc(tweet_count)) %>%
   slice(1)
+##slice(1) function extracts the first row of the sorted data frame
 
 print(as.data.frame(top_user))  # Final output
 
